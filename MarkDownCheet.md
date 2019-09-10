@@ -11,16 +11,14 @@ Bold, with **asterisks** or __underscores__.\
 Bold Italics with **asterisks and _underscores_**.\
 Strikethrough uses two tildes. ~~Scratch this.~~
 # LISTS
-1. First ordered list item
-2. Another item
-  * Unordered sub-list. **Put two spaces before**
-  * Unordered sub-list.
-3. And another item.
- 1. Ordered sub-list
- 2. Ordered sub-list
-* Unordered list can use asterisks
-- Or minuses
-+ Or pluses
++ World Cup 2014
+  1. Germany
+  2. Argentina
+  3. Netherlands
++ Rugby World Cup 2015
+  1. New Zealand
+  2. Australia
+  3. South Africa
 * Fruit
   * Apple
   * Orange
@@ -28,3 +26,20 @@ Strikethrough uses two tildes. ~~Scratch this.~~
 * Dairy
   * Milk
   * Cheese
+1. Ingredients
+
+    - spaghetti
+    - marinara sauce
+    - salt
+
+2. Cooking
+
+   Bring water to boil, add a pinch of salt and spaghetti. Cook until pasta is **tender**.
+
+3. Serve
+
+   Drain the pasta on a plate. Add heated sauce. 
+
+   > No man is lonely eating spaghetti; it requires so much attention.
+
+   Bon appetit!
