@@ -28,8 +28,8 @@ This is second para
     - another ordered sub-list
 2. Second ordered list
    Paragraph with 3 space prefixed
-#BLOCKQUOTES
-To create a blockquote, start a line with __greater than__ followed by an optional space.\
+# BLOCKQUOTES
+To create a blockquote, start a line with __greater than__ followed by an space.\
 Blockquotes can be nested, and can also contain other formatting.\
 > The Quote by me
 Multiple lines Quote
