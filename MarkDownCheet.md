@@ -8,6 +8,7 @@
 # EMPHASIS
 Italics with *asterisks* or _underscores_.\
 Bold, with **asterisks** or __underscores__.\
+To avoid creating bold or italic, place a backslash in front \* or \_\
 Strikethrough uses two tildes. ~~Scratch this.~~
 # LISTS
 + Unordered list with asterisks or plus or minus
