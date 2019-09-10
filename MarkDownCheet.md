@@ -31,7 +31,7 @@ This is second para
 # BLOCKQUOTES
 To create a blockquote, start a line with __greater than__ followed by an space.\
 Blockquotes can be nested, and can also contain other formatting.
-> The Quote by me
+> The Quote by me.\
 Multiple lines Quote
 > Allowing an unimportant mistake to pass without comment is a wonderful social grace.
 >
