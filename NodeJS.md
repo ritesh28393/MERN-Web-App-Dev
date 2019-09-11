@@ -1,52 +1,62 @@
-Intro
-    Node.js allows you to run JavaScript on the server environment
-    Node.js runs single-threaded, non-blocking, asynchronously programming, which is very memory efficient.
-    Node.js eliminates the waiting, and simply continues with the next request.
-        Here is how PHP or ASP handles a file request -
-            Sends the task to the computer's file system.
-            Waits while the file system opens and reads the file.
-            Returns the content to the client.
-            Ready to handle the next request.
-        Here is how Node.js handles a file request -
-            Sends the task to the computer's file system.
-            Ready to handle the next request.
-            When the file system has opened and read the file, the server returns the content to the client.
-    What is a Node.js File?
-        Node.js files contain tasks that will be executed on certain events
-        A typical event is someone trying to access a port on the server
-        Node.js files must be initiated on the server before having any effect
-        Node.js files have extension ".js"
+## Introduction
+* Node.js allows you to run JavaScript on the server environment
+* Node.js runs single-threaded, non-blocking, callback function, asynchronously programming, which is very memory efficient.
+* Node.js eliminates the waiting, and simply continues with the next request.
+   * Here is how PHP or ASP handles a file request -
+      ```
+      - Sends the task to the computer's file system.
+      - Waits while the file system opens and reads the file.
+      - Returns the content to the client.
+      - Ready to handle the next request.
+      ```
+   * Here is how Node.js handles a file request -
+      ```
+      - Sends the task to the computer's file system.
+      - Ready to handle the next request.
+      -  When the file system has opened and read the file, the server returns the content to the client.
+      ```
+* What is a Node.js File?
+   - Node.js files must be initiated on the server before having any effect
+   - Node.js files contain tasks that will be executed on certain events
+   - A typical event is someone trying to access a port on the server
+   - Node.js files have extension `.js`
     
-NPM
-    NPM is a package manager for Node.js packages/modules. Modules are JavaScript libraries you can include in your project
-    NPM creates a folder named "node_modules", where the package will be placed. All packages you install in the future will be placed in this folder.
+## NPM
+* **Package** and **modules** are used interchangeably
+* NPM is a package manager for Node.js packages/modules. Modules are JavaScript libraries you can include in your project
+* NPM creates a folder named `node_modules`, where the package will be placed. All packages you install in the future will be placed in this folder.
 
-Modules
-    Consider modules to be the same as JavaScript libraries. A set of functions you want to include in your application.
-    Include Module - Use the require() function with the name of the module
-    Custom Module - 
-        Example - Creates a module that returns a date and time object
-            exports.myDateTime = function () {
-                return Date();
-            };
-        exports keyword - Use it to make properties and methods available outside the module file.
-        Include Custom Module - 
-            var custMod = require('./myfirstmodule');  // './' means that the module is located in the same folder as the Node.js file.
-            .....
-            console.log(custMod.myDateTime());
+## Modules
+* **Definition:** A set of functions (JavaScript Library) you want to include in your application.
+* **Include Module:** Use `require("module_name")`
+* **Custom Module:** 
+   ```node
+   // Creates a module that returns a date and time object
+   exports.myDateTime = function () {
+		return Date();
+   };
+   // exports keyword - Use it to make properties and methods available outside the module file.
+   // Include Custom Module - 
+   var custMod = require('./myfirstmodule');  // './' means that the module is located in the same folder as the Node.js file.
+   .....
+   console.log(custMod.myDateTime());
+   ```
+   
+## HTTP Module
+* **Include HTTP Module:** `var http = require('http');`
+* `createServer()`: Creates an HTTP server that listens to server ports and gives a response back to the client
+* **HTTP Header Example:** If the response from the HTTP server is supposed to be displayed as HTML, you should include an HTTP header with the correct content type
+  ```
+  var http = require('http');
+  http.createServer(function (req, res) {
+    res.writeHead(200, {'Content-Type': 'text/html'});  // The first argument is the status code, 200 means that all is OK, the second   argument is an object containing the response headers.
+    res.write('Hello World!');
+    res.write(req.url);  // url property holds the part of the url that comes after the domain name
+    res.end();
+  }).listen(8080);
+  ```      
 
-HTTP Module
-    var http = require('http');
-    createServer() - Creates an HTTP server that listens to server ports and gives a response back to the client
-    HTTP Header Example - If the response from the HTTP server is supposed to be displayed as HTML, you should include an HTTP header with the correct content type
-        var http = require('http');
-        http.createServer(function (req, res) {
-            res.writeHead(200, {'Content-Type': 'text/html'});  // The first argument is the status code, 200 means that all is OK, the second argument is an object containing the response headers.
-            res.write('Hello World!');
-            res.write(req.url);  // url property holds the part of the url that comes after the domain name
-            res.end();
-        }).listen(8080);
-
+## Start from here
 File System Module
     var fs = require('fs');
     Allows you to work with the file system on your computer. System behaves as a File Server
