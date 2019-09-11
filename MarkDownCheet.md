@@ -1,7 +1,4 @@
-|| <!-- empty table header -->
-|:--:| <!-- table header/body separator with center formatting -->
-| I'm centered! | <!-- cell gets column's alignment -->
-### | Contents of the Mark Down Specs |
+**Contents of the Mark Down Specs**
   1. [Headers](#headers)
   2. [Emphasis](#emphasis)
   3. [Paragraph](#paragraph)
@@ -42,6 +39,21 @@ This is second para
     - another ordered sub-list
 2. Second ordered list
    Paragraph with 3 space prefixed
+# TABLES
+There must be at least 3 dashes separating each header cell.\
+The outer pipes (|) are optional, and you don't need to make the raw Markdown line up prettily.\
+Colons can be used to align columns\
+Example 1 -\
+| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
+Example 2 -\
+Markdown | Less | Pretty
+--- | --- | ---
+*Still* | `renders` | **nicely**
+1 | 2 | 3
 # BLOCKQUOTES
 To create a blockquote, start a line with __greater than__ followed by an space.\
 Blockquotes can be nested, and can also contain other formatting.
