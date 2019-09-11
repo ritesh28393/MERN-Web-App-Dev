@@ -38,12 +38,14 @@ Multiple lines Quote
 >
 > Ideological differences are no excuse for rudeness.
 # LINKS
-Links can be either -
+- Links can be either -
   - inline with the text **\[visible_text](URL)**, or 
   - placed at the bottom of the text as references **\[visible_text]\[id] ..... \[id]: URL "title"**\
-Another simple way - URLs may not become links in Markdown until enclosed in \< and \>
+- Another simple way - URLs may not become links in Markdown until enclosed in \< and \>
 # IMAGES
-Images are almost identical to links, but an image starts with an exclamation point ! -
+- Images are almost identical to links, but an image starts with an exclamation point ! -
   - !\[alt](cat.png)
   - !\[alt]\[id] .... \[id]: dog.jpg "title"
 # CODE
+To create inline code, wrap with backticks \`\
+To create a code block, either indent each line by 4 spaces, or place 3 backticks \``` on a line above and below the code block.
