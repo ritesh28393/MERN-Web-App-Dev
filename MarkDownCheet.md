@@ -23,6 +23,7 @@ To avoid creating bold or italic, place a backslash in front \* or \_\
 Strikethrough uses two tildes. ~~Scratch this.~~
 # PARAGRAPH
 For a line break, add either a backslash \ or two blank spaces at the end of the line.\
+To make the raw MD prettier, you can leave a blank line instead of putting slash at the end of para or sentence\
 To have multiple paragraphs, insert 1 vertical space.\
 This is first para
 
@@ -44,21 +45,21 @@ There must be at least 3 dashes separating each header cell.\
 The outer pipes (|) are optional, and you don't need to make the raw Markdown line up prettily.\
 Colons can be used to align columns\
 You must include a blank line before your table in order for it to correctly render.\
-Example 1 -\
-
+Example 1 -
+```markdown
 | Tables        | Are           | Cool  |
 | ------------- |:-------------:| -----:|
 | col 3 is      | right-aligned | $1600 |
 | col 2 is      | centered      |   $12 |
 | zebra stripes | are neat      |    $1 |
-
-Example 2 -\
-
+```
+Example 2 -
+```markdown
 Markdown | Less | Pretty
 --- | --- | ---
 *Still* | `renders` | **nicely**
 1 | 2 | 3
-
+```
 # BLOCKQUOTES
 To create a blockquote, start a line with __greater than__ followed by an space.\
 Blockquotes can be nested, and can also contain other formatting.
