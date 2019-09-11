@@ -252,7 +252,7 @@
         console.log(obj.result.n + " document(s) deleted");
         db.close();
       });
-  * Drop
+  * ### Drop
     * `drop()`
       * delete a collection(which is called table in MySQL)
       * It takes a callback function containing the error object and the result boolean parameter which returns true if the collection was dropped successfully, otherwise it returns false.
