@@ -91,7 +91,6 @@ For code block, you can also specify the code language like \`\`\`json or \`\`\`
 - [ ] Push my commits to GitHub
 - [ ] Open a pull request
 ```
-3. Emoji - You can add emoji to your writing by typing `:EMOJICODE:`
-   Example - :+1: This PR looks great - it's ready to merge! :shipit:
-   For a full list of available emoji and codes, check out [this](http://emoji-cheat-sheet.com/)
-  
+3. Emoji - You can add emoji to your writing by typing `:EMOJICODE:`\
+   Example - :+1: This PR looks great - it's ready to merge! :shipit:\
+   For a full list of available emoji and codes, check out [This Link](http://emoji-cheat-sheet.com/)
