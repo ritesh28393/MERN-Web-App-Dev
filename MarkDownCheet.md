@@ -1,3 +1,6 @@
+|| <!-- empty table header -->
+|:--:| <!-- table header/body separator with center formatting -->
+| I'm centered! | <!-- cell gets column's alignment -->
 ### | Contents of the Mark Down Specs |
   1. [Headers](#headers)
   2. [Emphasis](#emphasis)
