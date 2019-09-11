@@ -25,7 +25,7 @@ Strikethrough uses two tildes. ~~Scratch this.~~
 # PARAGRAPH
 For a line break, add either a backslash \ or two blank spaces at the end of the line.\
 To make the raw MD prettier, you can leave a blank line instead of putting slash at the end of para or sentence\
-To start a line from a specified intentation, provide same intentation /(generally 2 spaces) in the raw MD itself
+To start a line from a specified intentation, provide same intentation (generally 2 spaces) in the raw MD itself\
 To have multiple paragraphs, insert 1 vertical space.\
 This is first para
 
