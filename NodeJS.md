@@ -84,7 +84,7 @@
     ```
 
 ## Formidable Module - To upload file
-   ```
+   ```node
     var http = require('http');
     var formidable = require('formidable');
     var fs = require('fs');
@@ -136,7 +136,7 @@
     * MongoDB will create the database if it does not exist, and make a connection to it
     * >**Note:** In MongoDB, a database is not created until it gets content!. MongoDB waits until you have created a collection (table), with at least one document (record) before it actually creates the database (and collection).
     *
-      ```mongodb
+      ```js
       var MongoClient = require('mongodb').MongoClient;
       // connection URL with the ip address and the name of the database you want to create
       var url = "mongodb://localhost:27017/mydb";
@@ -150,7 +150,7 @@
     * A collection in MongoDB is the same as a table in MySQL
     * >**Note:** In MongoDB, a collection is not created until it gets content!. MongoDB waits until you have inserted a document before it actually creates the collection.
     * `createCollection()`: To create a collection in MongoDB
-      ```mongodb
+      ```js
       var MongoClient = require('mongodb').MongoClient;
       var url = "mongodb://localhost:27017/";
       MongoClient.connect(url, function(err, db) {
@@ -167,7 +167,7 @@
     * A document in MongoDB is the same as a record in MySQL
     * >**Note:** If you try to insert documents in a collection that do not exist, MongoDB will create the collection automatically.
     * `insertOne()`: To insert a record/document into a collection
-      ```mongodb
+      ```js
       var MongoClient = require('mongodb').MongoClient;
       var url = "mongodb://localhost:27017/";
       MongoClient.connect(url, function(err, db) {
@@ -189,7 +189,7 @@
       * Returns the first occurrence in the selection. 
       * The first parameter of the `findOne()` is a query object.
       * **Example:** Use an empty query object, which selects all documents in a collection (but returns only the first document)
-        ```
+        ```js
         dbo.collection("customers").findOne({}, function(err, result) {
           if (err) throw err;
           console.log(result.name);
@@ -201,7 +201,7 @@
       * The second parameter of the find() method is the projection object that describes which fields to include in the result.
       * This parameter is optional, and if omitted, all fields will be included in the result.
       * You are not allowed to specify both 0 and 1 values in the same object (except if one of the fields is the _id field). If you specify a field with the value 0, all other fields get the value 1, and vice versa -
-        ```
+        ```js
         find({}, { projection: { _id: 0, name: 1, address: 1 } }).toArray(function(err, result) { }) // Excluding _id
         find({}, { projection: { address: 0 } }).toArray(function(err, result) { }) // Excluding address
         find({}, { projection: { name: 1, address: 0 } }) // MongoError: Projection cannot have a mix of inclusion and exclusion.
@@ -209,8 +209,8 @@
   * ### Query
     * Used to filter the Result
     * The first argument of the find() method is a query object, and is used to limit the search
-    * **Example:** Find documents with the address "Park Lane 38"
-      ```
+    * **Example:** Find documents with the address **Park Lane 38**
+      ```js
       var query = { address: "Park Lane 38" };
       dbo.collection("customers").find(query).toArray(function(err, result) {
         if (err) throw err;
@@ -223,7 +223,7 @@
   * ### Sort
     * `sort()`: use to sort the result in ascending or descending order. It takes one parameter, an object defining the sorting order.
     * **Example:** Sort the result alphabetically by name
-      ```mongodb
+      ```js
       var mysort = { name: 1 };
       dbo.collection("customers").find().sort(mysort).toArray(function(err, result) {
         if (err) throw err;
@@ -235,8 +235,8 @@
     * `deleteOne()`
       * The first parameter is a query object defining which document to delete. 
       * If the query finds more than one document, only the first occurrence is deleted.
-      * **Example:** Delete the document with the address "Mountain 21"
-        ```mongodb
+      * **Example:** Delete the document with the address **Mountain 21**
+        ```js
         var myquery = { address: 'Mountain 21' };
         dbo.collection("customers").deleteOne(myquery, function(err, obj) {
           if (err) throw err;
@@ -245,7 +245,7 @@
         });
         ```
     * `deleteMany()` - deletes all documents which matches the query.
-      ```
+      ```js
       var myquery = { address: /^O/ };  // Delete all documents were the address starts with the letter "O"
       dbo.collection("customers").deleteMany(myquery, function(err, obj) {
         if (err) throw err;
@@ -256,8 +256,8 @@
     * `drop()`
       * delete a collection(which is called table in MySQL)
       * It takes a callback function containing the error object and the result boolean parameter which returns true if the collection was dropped successfully, otherwise it returns false.
-      * **Example:** Delete the "customers" table
-        ```
+      * **Example:** Delete the **customers** table
+        ```js
         dbo.collection("customers").drop(function(err, delOK) {
             if (err) throw err;
             if (delOK) console.log("Collection deleted");
@@ -265,7 +265,7 @@
         });
         ```
     * `dropCollection()` - Same as drop(), but the syntax is different. 
-      ```
+      ```js
       dbo.dropCollection("customers", function(err, delOK) {
         if (err) throw err;
         if (delOK) console.log("Collection deleted");
@@ -277,8 +277,8 @@
       * The first parameter is a query object defining which document to update. 
       * The second parameter is an object defining the new values of the document.
       * If the query finds more than one record, only the first occurrence is updated.
-      * **Example:** Update the document with the address "Valley 345" to name="Mickey" and address="Canyon 123"
-        ```
+      * **Example:** Update the document with the address **Valley 345** to name=**Mickey** and address=**Canyon 123**
+        ```js
         var myquery = { address: "Valley 345" };
         var newvalues = { $set: {name: "Mickey", address: "Canyon 123" } };  // $set operator, only the specified fields are updated
         dbo.collection("customers").updateOne(myquery, newvalues, function(err, res) {
@@ -291,7 +291,7 @@
   * ### Limit
     * Limit returns the subset of the result
     * It takes one parameter, a number defining how many documents to return
-      ```
+      ```js
       dbo.collection("customers").find().limit(5).toArray(function(err, result) {
         if (err) throw err;
         console.log(result);
@@ -301,8 +301,8 @@
   * ### Join
     * MongoDB is not a relational database, but you can perform a left outer join by using the `$lookup` stage.
     * The `$lookup` stage lets you specify which collection you want to join with the current collection, and which fields that should match.
-    * **Example:** Join the matching "products" document(s) to the "orders" collection
-      ```
+    * **Example:** Join the matching **products** document(s) to the **orders** collection
+      ```js
       dbo.collection('orders').aggregate([
         { $lookup:
           {
