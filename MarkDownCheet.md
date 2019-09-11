@@ -3,11 +3,12 @@
   2. [Emphasis](#emphasis)
   3. [Paragraph](#paragraph)
   4. [Lists](#lists)
-  5. [Blockquotes](#blockquotes)
-  6. [Links](#links)
-  7. [Images](#images)
-  8. [Code](#code)
-  9. [Miscellaneous](#miscellaneous)
+  5. [Tables](#tables)
+  6. [Blockquotes](#blockquotes)
+  7. [Links](#links)
+  8. [Images](#images)
+  9. [Code](#code)
+  10. [Miscellaneous](#miscellaneous)
 ***  
 # HEADERS
 # H1
@@ -84,3 +85,13 @@ To create a code block, either indent each line by 4 spaces, or place 3 backtick
 For code block, you can also specify the code language like \`\`\`json or \`\`\`html
 # MISCELLANEOUS
 1. Horizontal Rule - Put 3 asterisks under the sentence or word
+2. Task List - To create a task list, preface list items with a regular space character followed by `[ ]`. To mark a task as complete, use `[x]`
+```
+- [x] Finish my changes
+- [ ] Push my commits to GitHub
+- [ ] Open a pull request
+```
+3. Emoji - You can add emoji to your writing by typing `:EMOJICODE:`
+   Example - :+1: This PR looks great - it's ready to merge! :shipit:
+   For a full list of available emoji and codes, check out [this](http://emoji-cheat-sheet.com/)
+  
