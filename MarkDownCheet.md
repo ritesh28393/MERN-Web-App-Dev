@@ -39,6 +39,8 @@ Multiple lines Quote
 > Ideological differences are no excuse for rudeness.
 # LINKS
 Links can be either -
-    - inline with the text \[text\]\(http://a.com\), or 
-    - placed at the bottom of the text as references \[text\]\[id\].....\[id\]: \http://b.org/ "title
+- inline with the text \[visible_text](URL), or 
+- placed at the bottom of the text as references \[visible_text]\[id].....\[id]: URL "title"
+Another simple way - URLs may not become links in Markdown until enclosed in \< and \>
+# IMAGES
 [start from here](https://commonmark.org/help/tutorial/07-links.html)
