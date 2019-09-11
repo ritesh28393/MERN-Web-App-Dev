@@ -25,7 +25,7 @@ Strikethrough uses two tildes. ~~Scratch this.~~
 # PARAGRAPH
 For a line break, add either a backslash \ or two blank spaces at the end of the line.\
 To make the raw MD prettier, you can leave a blank line instead of putting slash at the end of para or sentence\
-To start a line from a specified intentation, provide same intentation (generally 2 spaces) in the raw MD itself\
+To start a line from a specified intentation, provide same intentation in the raw MD itself\
 To have multiple paragraphs, insert 1 vertical space.\
 This is first para
 
@@ -95,3 +95,11 @@ For code block, you can also specify the code language like \`\`\`json or \`\`\`
 3. Emoji - You can add emoji to your writing by typing `:EMOJICODE:`\
    Example - :+1: This PR looks great - it's ready to merge! :shipit:\
    For a full list of available emoji and codes, check out [This Link](http://emoji-cheat-sheet.com/)
+4. UML Diagram using Mermaid
+```mermaid
+graph LR
+A[Square Rect] -- Link text --> B((Circle))
+A --> C(Round Rect)
+B --> D{Rhombus}
+C --> D
+```
