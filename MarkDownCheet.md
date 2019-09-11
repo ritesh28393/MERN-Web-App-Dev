@@ -48,9 +48,7 @@ Multiple lines Quote
   - !\[alt]\[id] .... \[id]: dog.jpg "title"
 # CODE
 To create inline code, wrap with backticks \`\
-***
 To create a code block, either indent each line by 4 spaces, or place 3 backticks \`\`\` on a line above and below the code block.\
----
 For code block, you can also specify the code language like \`\`\`json or \`\`\`html
 # MISCELLANEOUS
-1. Horizontal Rule - Put 3 dash or asterisks under the sentence or word
+1. Horizontal Rule - Put 3 asterisks under the sentence or word
