@@ -1,5 +1,14 @@
-### Contents of the Mark Down Specs
-  1. [Images](#images)
+### | Contents of the Mark Down Specs |
+  1. [Headers](#headers)
+  2. [Emphasis](#emphasis)
+  3. [Paragraph](#paragraph)
+  4. [Lists](#lists)
+  5. [Blockquotes](#blockquotes)
+  6. [Links](#links)
+  7. [Images](#images)
+  8. [Code](#code)
+  9. [Miscellaneous](#miscellaneous)
+***  
 # HEADERS
 # H1
 ## H2
