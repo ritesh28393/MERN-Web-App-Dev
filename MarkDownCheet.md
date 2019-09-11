@@ -1,5 +1,5 @@
 ### Contents of the Mark Down Specs
-    1. [Images](#images)
+  1. [Images](#images)
 # HEADERS
 # H1
 ## H2
