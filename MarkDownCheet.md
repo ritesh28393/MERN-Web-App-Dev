@@ -87,7 +87,7 @@ For code block, you can also specify the code language like \`\`\`json or \`\`\`
 # MISCELLANEOUS
 1. Horizontal Rule - Put 3 asterisks under the sentence or word
 2. Task List - To create a task list, preface list items with a regular space character followed by `[ ]`. To mark a task as complete, use `[x]`
-```
+```md
 - [x] Finish my changes
 - [ ] Push my commits to GitHub
 - [ ] Open a pull request
@@ -95,11 +95,3 @@ For code block, you can also specify the code language like \`\`\`json or \`\`\`
 3. Emoji - You can add emoji to your writing by typing `:EMOJICODE:`\
    Example - :+1: This PR looks great - it's ready to merge! :shipit:\
    For a full list of available emoji and codes, check out [This Link](http://emoji-cheat-sheet.com/)
-4. UML Diagram using Mermaid
-```mermaid
-graph LR
-A[Square Rect] -- Link text --> B((Circle))
-A --> C(Round Rect)
-B --> D{Rhombus}
-C --> D
-```
