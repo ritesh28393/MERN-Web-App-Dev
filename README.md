@@ -12,7 +12,7 @@
 ## Photo Editor
  * Pixlr
 
-```reactjs
+```react
 import React from 'react';
 import ReactDOM from 'react-dom';
 class Car extends React.Component {
