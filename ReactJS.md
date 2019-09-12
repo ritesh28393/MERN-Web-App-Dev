@@ -57,6 +57,7 @@ REACT COMPONENTS(in this tutorial we will concentrate on Class components)
     Components in Files - The file must start by importing React (as before), and it has to end with the statement export default Car;
         Example - 
             Create a new file "App.js"
+                ```
                 import React from 'react';
                 import ReactDOM from 'react-dom';
                 class Car extends React.Component {
@@ -65,6 +66,7 @@ REACT COMPONENTS(in this tutorial we will concentrate on Class components)
                     }
                 }
                 export default Car;
+                ```
             Use the Car component after importing the "App.js" file in the application
                 import React from 'react';
                 import ReactDOM from 'react-dom';
