@@ -1,3 +1,17 @@
+**Contents of the Mongo DB**
+  1. [Introduction](#introduction)
+  2. [Create Database](#create-database)
+  3. [Create Collection](#create-collection)
+  4. [Insert](#insert)
+  5. [Find](#find)
+  6. [Query](#query)
+  7. [Sort](#sort)
+  8. [Delete](#delete)
+  9. [Drop](#drop)
+  10. [Update](#update)
+  11. [Limit](#limit)
+  12. [Join](#join)
+*** 
 ## Introduction
   * [Difference between SQL and NoSQL](https://www.thegeekstuff.com/2014/01/sql-vs-nosql-db)
 ## Create Database
