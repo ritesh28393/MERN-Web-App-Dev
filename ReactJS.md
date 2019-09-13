@@ -35,7 +35,7 @@
   * > ***In this tutorial we will only concentrate on the Class components, and not on the Function components***
   * Components serve the same purpose as JavaScript functions, but work in isolation and returns HTML via a render function.
   * **Naming Convention:** The component name must start with an upper case letter
-  * **Create Component:** Create a component called Car, which returns a <h2> element -
+  * **Create Component:** Create a component called Car, which returns a `<h2>` element -
     ```js
     class Car extends React.Component {
       render() {
@@ -379,7 +379,7 @@
       ```
   * **CSS Modules**
     * The CSS inside a module is available only for the component that imported it, and you do not have to worry about name conflicts.
-      ```js
+      ```css
       // Create the CSS module with the ".module.css" extesion, example: mystyle.module.css
       .bigblue {
         color: DodgerBlue;
@@ -387,6 +387,8 @@
         font-family: Arial;
         text-align: center;
       }
+      ```
+      ```js
       // import the stylesheet in your component
       import styles from './mystyle.module.css'; 
       class Car extends React.Component {
