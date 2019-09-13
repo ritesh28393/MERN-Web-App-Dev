@@ -14,7 +14,7 @@
   * Instead of manipulating the browser's DOM directly, React creates a virtual DOM in memory, where it does all the necessary manipulating, before making the changes in the browser DOM.
   * React finds out what changes have been made, and changes only what needs to be changed.
   * The quickest way start learning React is to first include following 3 scripts and then write React directly in your HTML files. The first two let us write React code in our JavaScripts, and the third, Babel, allows us to write JSX syntax and ES6 in older browsers
-    ```js
+    ```html
     <script src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
     <script src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
     <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
@@ -27,8 +27,8 @@
     * With JSX - `const myelement = <h1>I Love JSX!</h1>;`
     * Without JSX - `const myelement = React.createElement('h1', {}, 'I do not use JSX!');`
   * **Expressions in JSX:** With JSX you can write expressions inside curly braces { }, like `const myelement = <h1>React is {5 + 5} times better with JSX</h1>;`
-  * **Inserting Large Block of HTML:** To write HTML on multiple lines, put the HTML inside ()
-  * **One Top Level Element:** The HTML code must be wrapped in ONE top level element. So if you like to write two headers, you must put them inside a parent element, like a div element. 
+  * **Inserting Large Block of HTML:** To write HTML on multiple lines, put the HTML inside `()`
+  * **One Top Level Element:** The HTML code must be wrapped in ONE top level element. So if you like to write two headers, you must put them inside a parent element, like a `div` element. 
   * **Error thrown in JSX:** JSX will throw an error if the HTML is not correct, or HTML elements are not properly closed, or if the HTML misses a parent element.
 
 ## Components
@@ -59,7 +59,7 @@
     ReactDOM.render(<Garage />, document.getElementById('root'));
     ```
   * **Components in Files:** 
-    * The file must start by importing React (as before), and it has to end with the statement export default Car;
+    * The file must start by importing React (as before), and it has to end with the statement `export default Car;`
     * Create a new file **App.js**
       ```js
       import React from 'react';
@@ -145,8 +145,8 @@
 
 ## LifeCycle
   * Each component in React has a lifecycle which you can monitor and manipulate during its three main phases. The three phases are -
-    > **Mounting**: constructor(), getDerivedStateFromProps(), render(), componentDidMount()
-    > **Updating**:  getDerivedStateFromProps(), shouldComponentUpdate(), render(), getSnapshotBeforeUpdate(), componentDidUpdate()
+    > **Mounting**: constructor(), getDerivedStateFromProps(), render(), componentDidMount()\
+    > **Updating**:  getDerivedStateFromProps(), shouldComponentUpdate(), render(), getSnapshotBeforeUpdate(), componentDidUpdate()\
     > **Unmounting**: componentWillUnmount()
   * **Mounting:** Putting elements into the DOM. React has four built-in methods that gets called, in this order, when mounting a component -
     1. `constructor()`: Natural place to set up the initial state and other initial values. It is called with the props, as argument, and you should always start by calling the `super(props);` before anything else
@@ -380,7 +380,7 @@
   * **CSS Modules**
     * The CSS inside a module is available only for the component that imported it, and you do not have to worry about name conflicts.
       ```css
-      // Create the CSS module with the ".module.css" extesion, example: mystyle.module.css
+      /*Create the CSS module with the ".module.css" extesion, example: mystyle.module.css*/
       .bigblue {
         color: DodgerBlue;
         padding: 40px;
