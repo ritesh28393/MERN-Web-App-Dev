@@ -1,0 +1,222 @@
+WEb Scraping Using Node JS
+    https://blog.bitsrc.io/how-to-perform-web-scraping-using-node-js-part-2-7a365aeedb43
+    https://github.com/apifytech/apify-js
+    
+HTML Reference
+    https://www.w3schools.com/tags/ref_byfunc.asp
+Web Development Roadmaps - https://www.w3schools.com/whatis/default.asp - storybook, styleguidist
+W3.CSS Templates - https://www.w3schools.com/w3css/w3css_templates.asp
+
+PHOTO EDITOR LINGO
+    Aspect Ratio - proportional representation of its width vs. height like 3:2
+    Anti-Aliasing / Jaggies - 
+        Aliasing is the jagged appearance of stair-step effects on the edges of circles and other curved shapes
+        Anti-aliasing is a process that softens or removes jaggies. During this the edges of objects receive color information from both sides of the object
+        An apple on a white dish, for example, gets red and white information at the edges, resulting in some in-between pixels that contain both colors. This softens the edges and decreases the visibility of jaggies
+    Clarity and Sharpen -
+        Sharpen refers to a contrast between light and dark pixels, while Clarity refers to contrast between middle tones
+        Constrast - obvious different between 2 objects
+        clarity tends to amplify an image’s textures, while sharpen increases edge contrast.
+    Unsharp Mask - make a blurry copy (an unsharp one, if you will) and subtract it from the original image to create a clearer result
+    Bokeh(blur or haze) - 
+    Exposure - 
+        This is how light or dark an image appears. Approach to exposure: not too bright, not too dark … you want it juuuuust right 
+        Overexposure - A photo taken under conditions that are too bright will produce overexposure. Detail may be lost, and in general, the image is brighter than a properly exposed image.
+        Underexposure - It results when an image is recorded without enough light. Photos taken at night, indoors in dim light, or while spelunking are at risk for underexposure
+    Histogram - 
+        It is a graph displaying all the tones in your image as numbers ranging from 0 to 255. 
+        Black and shadows are on the left side, white and highlights are on the right side, and mid-tones are in the middle. 
+        Useful when you want to fine-tune a photo’s brightness
+    White Balance - You’re given a temperature gauge to work with. You can make the photo hotter (yellow/orange) or colder (blue) depending on how you want the photo to look
+    Tint and Shade -
+        A tint is a lighter version of the colour (created by adding white, or a lighter pigment of similar hue)
+        A shade is a darker version of the colour (created by adding black, or a darker pigment of similar hue).
+    Selection
+        Marquee - allows the user to select multiple objects or a portion of an object
+        Lasso - free-hand version of the marquee too
+        Wand - make a marquee-style selection based on values (i.e., tone and color) that are similar to the area clicked. It’s great at selecting large blocks of solid color. Additional options: Experiment with tolerance levels. Use anti-alias for achieving sharper edges
+    Coloring
+        Brush - Much like the pencil, the brush lets you draw freehand, but with many more options
+        Paint Bucket - Dump a big mess of color onto a layer or on your background. If you want more control over how messy that paint dump is, adjust the tolerance. A lower tolerance level will limit coloring to similarly colored pixels (light coloring); higher tolerance equals a stronger use of your paint bucket to fill less similar pixels (heavy color dumping)
+        Gradient - Define your foreground and background colors and alter any other settings (linear vs. radial, spread method, mode); then, click on a starting point on your canvas, drag your mouse to the endpoint, and let go. Your gradient will fill the layer or selection.
+    Coping
+        Clone Stamp -
+            Lets you sample pixels in one defined area and replicate those pixels elsewhere. 
+            While you can use this to duplicate an entire object in your image, people often use this to blend colors and textures in an impressionistic way or for minor touch up of blemishes. 
+            You can choose your brush size, and you can adjust opacity if you desire. 
+        Color Replace -
+            replaces areas under your brush with a new, desired color — while preserving the underlying texture and shadows.
+            You may want to change brush size to avoid coloring outside of the area you want to color, but the most important detail of this tool is the tolerance level. 
+            Flat areas of color can be colored using a lower tolerance; areas with a lot of texture or shading may require a higher tolerance.
+    Surface 
+        Blur - Make things blurry. Click and drag to blur. Keep clicking to make it blurrier. This is a good tool for blending harsh edges together.
+        Sharpen - Applies the sharpen filter to a brush tool. Sharpening increases the contrast between pixels, which has the visual effect of bringing out details and highlights. It’s very easy to overdue this, so take a light hand when you sharpen! You can change the brush size and strength
+        Smudge - A bit different than blur, smudge effectively combines pixels of different colors to produce an effect that can look like smudged paint. Brush size and brush strength are adjustable.
+        https://blog.pixlr.com/support/the-pixlr-editor-toolbar-explained/
+     
+****************************************************************JAVASCRIPT****************************************************************
+https://medium.com/@madasamy/javascript-brief-history-and-ecmascript-es6-es7-es8-features-673973394df4
+http://javascriptissexy.com/16-javascript-concepts-you-must-know-well/
+https://www.freecodecamp.org/news/learn-these-core-javascript-concepts-in-just-a-few-minutes-f7a16f42c1b0/
+https://medium.com/@madasamy/15-javascript-concepts-that-every-nodejs-programmer-must-to-know-6894f5157cb7
+http://overapi.com/javascript
+https://javascript.info/
+https://www.greycampus.com/blog/programming/java-script-versions
+https://www.freecodecamp.org/news/7-javascript-methods-that-will-boost-your-skills-in-less-than-8-minutes-4cc4c3dca03f/
+In regular functions the this keyword represented the object that called the function, which could be the window, the document, a button or whatever. With arrow functions the this keyword always represents the object that defined the arrow function.
+If you use var outside of a function, it belongs to the global scope. If you use var inside of a function, it belongs to that function. If you use var inside of a block, i.e. a for loop, the variable is still available outside of that block. var has a function scope, not a block scope.
+let has a block scope. let is the block scoped version of var, and is limited to the block (or expression) where it is defined. If you use let inside of a block, i.e. a for loop, the variable is only available inside of that loop.
+const is a variable that once it has been created, its value can never change. const has a block scope.
+
+****************************************************************SASS(.scss)****************************************************************
+INTRO
+    Sass stands for Syntactically Awesome StyleSheet
+    Sass is an extension to CSS
+    Sass is a CSS pre-processor
+    Sass is completely compatible with all versions of CSS
+    Sass reduces repetition of CSS and therefore saves time
+    Transpiling is a term for taking a source code written in one language and transform/translate it into another language. A browser does not understand Sass code. Therefore, you will need a Sass pre-processor to convert Sass code into standard CSS. This process is called transpiling.
+    Comments - /*comment*/ or //comment
+
+VARIABLES
+    $variablename: value;
+    example -
+        $myFont: Helvetica, sans-serif;
+        $myColor: red;
+        $myFontSize: 18px;
+        $myWidth: 680px;
+        body {
+            font-family: $myFont;
+            font-size: $myFontSize;
+            color: $myColor;
+        }
+        #container {
+            width: $myWidth;
+        }
+    Sass variables are only available at the level of nesting where they are defined.
+    The default behavior for variable scope can be overridden by using the !global switch. !global indicates that a variable is global, which means that it is accessible on all levels.
+    Global variables should be defined outside any rules. It could be wise to define all global variables in its own file, named "_globals.scss", and include the file with the @include keyword.
+
+NESTING
+    nested rule example - In below example, ul, li, and a selectors are nested inside the nav selector
+        nav {
+            ul {
+                margin: 0;
+                padding: 0;
+                list-style: none;
+            }
+            li {
+                display: inline-block;
+            }
+            a {
+                display: block;
+                padding: 6px 12px;
+                text-decoration: none;
+            }
+        }
+    Many CSS properties have the same prefix, like font-family, font-size and font-weight or text-align, text-transform and text-overflow. With Sass you can write them as nested properties -
+        font: {
+            family: Helvetica, sans-serif;
+            size: 18px;
+            weight: bold;
+        }
+        text: {
+            align: center;
+            transform: lowercase;
+            overflow: hidden;
+        }
+
+@IMPORT
+    Sass keeps the CSS code DRY (Don't Repeat Yourself). One way to write DRY code is to keep related code in separate files. You can create small files with CSS snippets to include in other Sass files. Examples of such files can be: reset file, variables, colors, fonts, font-sizes, etc. 
+    The SASS @import directive allows you to include the content of one file in another - @import "filename";  //You do not need to specify a file extension
+    The CSS @import directive has a major drawback due to performance issues; it creates an extra HTTP request each time you call it. However, the Sass @import directive includes the file in the CSS; so no extra HTTP call is required at runtime!
+    Partials -
+        By default, Sass transpiles all the .scss files directly. However, when you want to import a file, you do not need the file to be transpiled directly.
+        Sass has a mechanism for this: If you start the filename with an underscore, Sass will not transpile it. Files named this way are called partials in Sass - _filename.scss
+        If you import the partial file, omit the underscore. Sass understands that it should import the file "_colors.scss" - @import "colors";
+
+@MIXIN
+    The @mixin directive lets you create CSS code that is to be reused throughout the website. The @include directive is created to let you use (include) the mixin.
+    Example - 
+        Creates a mixin named "important-text" -
+            @mixin important-text {
+                color: red;
+                font-size: 25px;
+                font-weight: bold;
+                border: 1px solid blue;
+            }
+        Include the important-text mixin created above -
+            .danger {
+                @include: important-text;
+                background-color: green;
+            }
+    Hyphens and underscores are considered to be the same. This means that @mixin important-text { } and @mixin important_text { } are considered as the same mixin!
+    A mixin can also include other mixins -
+        @mixin special-text {
+            @include: important-text;
+            @include: link;
+            @include: special-border;
+        }
+    Passing Variables to a Mixin -
+        Without default values -
+            /* Define mixin with two arguments */
+            @mixin bordered($color, $width) {
+                border: $width solid $color;
+            }
+            .myArticle {
+                @include bordered(blue, 1px);  // Call mixin with two values
+            }
+        With default values -
+            @mixin bordered($color: blue, $width: 1px) {
+                border: $width solid $color;
+            }
+            .myTips {
+                @include bordered($color: orange);
+            }
+
+@EXTEND
+    The @extend directive lets you share a set of CSS properties from one selector to another.
+    Following Sass example first creates a basic style for buttons (this style will be used for most buttons). Then, we create one style for a "Report" button and one style for a "Submit" button. Both "Report" and "Submit" button inherit all the CSS properties from the .button-basic class, through the @extend directive -
+        .button-basic  {
+            border: none;
+            padding: 15px 30px;
+            text-align: center;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        .button-report  {
+            @extend .button-basic;
+            background-color: red;
+        }
+        .button-submit  {
+            @extend .button-basic;
+            background-color: green;
+            color: white;
+        }
+
+String functions - 
+    used to manipulate and get information about strings. Sass strings are 1-based. The first character in a string is at index 1, not 0.
+    https://www.w3schools.com/sass/sass_functions_string.asp
+
+Numeric functions - 
+    used to manipulate numeric values.
+    https://www.w3schools.com/sass/sass_functions_numeric.asp
+
+List functions -
+    used to access values in a list, combine lists, and add items to lists
+    Sass lists are immutable (they cannot change). So, the list functions that return a list, will return a new list, and not change the original list.
+    Sass lists are 1-based. The first list item in a list is at index 1, not 0.
+    https://www.w3schools.com/sass/sass_functions_list.asp
+
+Map functions - 
+    In Sass, the map data type represents one or more key/value pairs.
+    Sass maps are immutable (they cannot change). So, the map functions that return a map, will return a new map, and not change the original map
+    https://www.w3schools.com/sass/sass_functions_map.asp
+
+Selector functions -
+    used to check and manipulate selectors.
+    https://www.w3schools.com/sass/sass_functions_selector.asp
+
+Color functions -
+    We can divide the color functions in Sass into three parts: Set color functions, Get color functions, and Manipulate color functions
+    https://www.w3schools.com/sass/sass_functions_color.asp
