@@ -343,3 +343,47 @@ What now?
 00:28
 Bonus
 02:50
+
+
+************************************************************************
+Color Replace Tool - 
+	re-paint any area in a photo in a different color. 
+	If the painting is not done in one uninterrupted step, it comes out looking patchy. 
+	You don’t have to paint perfectly around the borders. Even if you paint outside the lines, the tool should only pain the section within.
+Magic Wand Tool -  
+	use when you want to select parts of the photo based on a similar color
+	comes in handy if you want to crop or delete something from a photo, make an image into a PNG file or color different parts of the image.
+	best to use when the selection areas are simple in shape and color. It might not work so easily for images with big variations in color tones or complex shapes.
+	If it doesn’t select the entire area, hold Shift and keep clicking in the area until the whole selection is highlighted.
+	You can also increase the “Tolerance” slider up to select a bigger range of pixels or slide it down for a smaller range
+Layers -
+	With layers, you can add text or a photo on top of another image, similar to how you would in Photoshop.
+	You can add a shadow to the layer. Click on the Layer Styles under the Layer box.
+Erase Tool - 
+	handy tool that can remove the background from an image. This is super useful if you want to copy something on top of another photo. 
+	you can also delete some of the up-close areas by using the Magic Wand tool. Just select the Wand tool, hold “Shift”, click on the sand and click “Delete”.
+Spot Heal And Clone Stamp Tools -
+	used to remove people or unwanted parts from the image.
+	Essentially both tools can achieve very similar results but the Spot Healing Tool lets the Pixlr program do all the hard work while the Clone Stamp tool gives the user more control.
+	The Spot Healing Tool is not very good with sharp edges or multi-color areas so some parts can come out looking a bit smudgy. In that case, select a smaller brush size and zoom in to get the more difficult parts.
+	The Spot Heal Tool works great for simple images but for something a bit more complicated, you’ll want to use the Clone Stamp Tool.
+	The Clone Stamp Tool gives the user a lot more control on what and how to replace in the image. hold down “Ctrl” and click on the image to select a nearby spot that’s similar in color or pattern to what you want to replace.
+Pinch Tool -
+	You can make pinching adjustments to the photo to make something look slimmer like a body
+	The Pinch Tool slightly distorts the surrounding area so when using this tool just be careful not to over-do it.
+  
+*******************************************************************************************************************
+http://web.simmons.edu/~lewiscj/portfolio/files/Altomer_Lewis_Pixlr_Tutorial.pdf
+*******************************************************************************************************************
+The Adjustment menu gives you many options for altering and enhancing your image, some simple, and some more complex. For instance, Brightness & Contrast and Hue & Saturation are simple tools for brightening up a dull-looking image. Sepia will make your image look like an old monochrome photograph, and Desaturate will turn a color picture into a black and white image. There are also more dramatic effects, such as Posterize
+The Filter menu (seen here to the right) provides many other options for altering the appearance of an image, some of which can be quite extreme.
+PIXLR Tutorial 2017 - Designed for Beginners — by Teacher’s Tech --- https://www.youtube.com/watch?v=2xOCi_I5_Jc
+Complete playlist of additional Pixlr tutorials by Teacher's Tech --- https://www.youtube.com/playlist?list=PLmkaw6oRnRv843MQW1EHUcvCM3vht55_X
+Pixlr Editor 2017 Tutorial — by Technology for Teachers and Students --- https://www.youtube.com/watch?v=y28QW05xtI8
+Image Background Removal with Pixlr — by Jennifer Leban --- https://www.youtube.com/watch?v=8hco00o-CtM
+Pixlr Playlist — Tutorials created by Pixlr --- https://www.youtube.com/user/PixlrStream/playlists
+Support | FAQ's — from Pixlr’s Blog --- http://pixlr.com/blog/support/
+
+*******************************************************************************************************************
+http://pixlrtutorial.blogspot.com/p/tutorials-navigation.html?_sm_au_=isV2q7TJF6Jr3FTR
+*******************************************************************************************************************
