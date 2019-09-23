@@ -1,389 +1,85 @@
-Getting Started
-29:23
-The user interface, menus and tools 
-Preview
-03:49
-Getting an image into Pixlr 
-Preview
-06:31
-Panels, Navigation and Palettes 
-08:21
-Grab an image using Pixlr Grabber for Firefox and Skitch 
-10:42
-–
-Making Adjustments to an Image
-01:13:00
-Save and resize an image 
-07:31
-Changing hue, saturation and brightness 
-03:18
-How to colour an object in a black and white image 
-07:13
-Straighten an image using the Free Transform tool 
-03:35
-Create a Vintage Effect using the Adjustment Menu 
-05:43
-Using Free Transform and Free Distort 
-11:16
-Introduction to Layers 
-06:28
-Build up an image using Layers and Layer Masks (Project) 
-24:35
-How to merge layers and flatten an image 
-03:21
-–
-Selection Tools
-01:01:40
-The Lasso tool 
-11:20
-The Crop and Marquee tools 
-17:35
-The Magic Wand tool 
-13:28
-How to use a layer mask and the Lasso tool (Project) 
-10:46
-Blend two images using a layer mask (Project) 
-08:31
-–
-Editing tools
-01:50:55
-The Pencil, Brush and Paint Bucket tools 
-08:26
-Spice up an image using brushes 
-12:17
-How to make your own custom Pixlr brushes 
-11:58
-Fun with layers, filters and brushes (Project) 
-15:28
-The Clone Stamp tool 
-Preview
-09:18
-The Drawing tool 
-10:30
-The Gradient tool 
-13:51
-How to create an image using gradients and a layer mask 
-10:04
-Create a banner for a website (project) 
-15:09
-How to create gradient text 
-Preview
-03:54
-All about Layers
-10 questions
-–
-Blending tools
-01:06:01
-Create an artistic double exposure 
-10:30
-The Dodge, Sponge and Burn tools 
-16:56
-The Blur, Sharpen and Smudge tools 
-14:18
-The Spot Heal and Red Eye Reduction tools 
-08:24
-The Pinch and Bloat tools 
-05:13
-How to touch up a portrait 
-10:40
-–
-Using Special Filters and Effects
-53:35
-The Filters Options 
-07:25
-Adding multiple effects and filters to an image 
-10:36
-Exploring the Filters menu (Project) 
-08:09
-Creating a panorama image 
-11:57
-Using Filters and Effects (Project) 
-14:37
-Create a Sepia Masterpiece (Project)
-00:51
-–
-Miscellaneous Tools
-29:46
-Text, Layer Styles and the Drawing Tool 
-12:07
-The Colour Replace tool 
-06:39
-How to remove the background from an image 
-11:00
-–
-Projects
-15:17
-Project 1: The Car 
-10 pages
-Project 2: Restore a scratched and torn photograph 
-2 pages
-Project 3: Create a collage
-Preview
-4 pages
-Project 4: Colour Splash 
-1 page
-Project 5: Rusty Face 
-1 page
-Project 6: Motion Blur 
-1 page
-Create your own clip art using Pixlr (NEW CONTENT) 
-15:17
-Test your Knowledge
-10 questions
-–
-Pixlr and the Cloud
-32:44
-Connecting Pixlr to Google Drive 
-07:45
-PixlrExpress 
-13:52
-Pixlr-O-Matic 
-11:07
-Pixlr Express Project: The Focal Blur
-1 page
-Pixlr Express Project: Effects
-2 pages
-Selection Tools
-10 questions
+Adjustment
+ Brightness & Contrast
+ Hue & Saturation
+ Color Balance
+ Color Vibrance
+ Levels - dark, mid and light tone
+ Curves
+ Exposure
+ ------------------------
+ Auto Levels
+ ------------------------
+ Invert
+ Sepia
+ Solarize
+ Desaturate
+ Old Photo
+ Cross Process
+ Threshold
+ Posterize
+ Color Lookup
 
-
-
-
-
-Course content
-Collapse all 65 lectures
-04:50:37
-–
-Introduction
-08:58
-Introduction
-Preview
-00:33
-Creative commons licence
-00:59
-Pixlr pro editor
-07:26
-–
-Pixlr tools
-59:44
-Sharpen tool
-03:40
-Sponge tool
-02:15
-Burn tool
-01:19
-What can we use the burn tool for?
-1 question
-Dodge tool
-06:13
-Pinch tool
-02:16
-Bloat tool
-01:50
-Smudge tool
-00:29
-Blur tool
-02:16
-What are these tools used for?
-2 questions
-Color replace tool
-01:49
-Gradient tool
-03:35
-Crop tool
-01:49
-Marquee vs. Lasso tool
-01:50
-Text
-02:25
-What are these tools used for?
-2 questions
-Clone stamp tool
-04:39
-Brush tool
-05:10
-Pencil tool
-02:24
-Wand tool
-03:31
-Color vibrance
-03:19
-What are these tools used for?
-2 questions
 Filter
-08:55
-–
-Layers
-18:56
-Everything you need to know about layers
-07:36
-Add layer mask
-03:26
-Add eraser tool
-03:21
-Questions about layers
-2 questions
-Toggle layer settings
-03:09
-Rasterize layer
-01:24
-–
-Different ways of photo editing
-32:26
-Dispersion effect
-04:12
-Creating snowflakes
-02:36
-How to create snowflakes in Pixlr? 
-1 question
-Raining effect
-03:01
-Edit imperfections
-03:53
-Changing color of appearance
-08:16
-Mirror effect
-02:50
-Vector graphic
-Preview
-07:38
-–
-Double exposure projects
-08:09
-Double exposure
-Preview
-04:04
-Double exposure in art form
-01:17
-Reflection in the eye
-02:48
-How to create a double exposure?
-1 question
-Create a double exposure effect 
-3 questions
-–
-3D effects projects
-22:43
-Butterfly 3D
-05:05
-Road 3D
-12:55
-Glitch effect
-04:43
-How to create 3 effect with blue and red color? 
-3 questions
-–
-Instagram text and image effects
-25:58
-Create a logo
-03:38
-Integration
-Preview
-03:21
-Neon lights text effect
-09:37
-Mosaic photo
-09:22
-What is the size used in Instagram? 
-1 question
-–
-Brush tool effects
-08:02
-Crack effect
-05:55
-Fire in the eye
-02:07
-–
-Science fiction project
-18:45
-Creating floating island
-18:45
-–
-Special request
-18:22
-Adding more light to background
-01:25
-Adding more light to background part 2
-05:12
-Walking from jungle to the real world
-11:45
-–
-Pixlr pro editor
-48:04
-Opening a document
-06:32
-Shortcuts
-02:32
-Colors
-08:48
-Jitters
-04:20
-History Window
-01:45
-Letter font
-03:20
-Healing brush tool and Patch tool
-02:03
-Quick selection tool part 1
-03:50
-Quick selection tool part 2
-02:11
-Magnetic lasso tool
-01:23
-Shape tools
-01:42
-Shapes, Path select and Direct select
-05:31
-Brush tool
-04:07
-–
-Bonus and Conclusion
-03:18
-What now?
-00:28
-Bonus
-02:50
+ Blur
+ Box Blur
+ Gaussian Blur
+ Sharpen
+ Unsharp Mask
+ Denoise
+ ------------------------
+ Noise
+ Diffuse
+ Scanlines
+ Halftone
+ Pixelate
+ Pointinize
+ Water Swirl
+ Polar Coordinates
+ Kaleidoscope
+ Tilt Swift
+ ------------------------
+ Vignette
+ Pastels
+ Glamour Glow
+ Mimic HDR
+ Hope
+ Art Poster
+ Heat Map
+ Tri Tone
+ Night Vision
+ ------------------------
+ Emboss
+ Engrave
+ Find Edges
 
-
-************************************************************************
-Color Replace Tool - 
-	re-paint any area in a photo in a different color. 
-	If the painting is not done in one uninterrupted step, it comes out looking patchy. 
-	You don’t have to paint perfectly around the borders. Even if you paint outside the lines, the tool should only pain the section within.
-Magic Wand Tool -  
-	use when you want to select parts of the photo based on a similar color
-	comes in handy if you want to crop or delete something from a photo, make an image into a PNG file or color different parts of the image.
-	best to use when the selection areas are simple in shape and color. It might not work so easily for images with big variations in color tones or complex shapes.
-	If it doesn’t select the entire area, hold Shift and keep clicking in the area until the whole selection is highlighted.
-	You can also increase the “Tolerance” slider up to select a bigger range of pixels or slide it down for a smaller range
-Layers -
-	With layers, you can add text or a photo on top of another image, similar to how you would in Photoshop.
-	You can add a shadow to the layer. Click on the Layer Styles under the Layer box.
-Erase Tool - 
-	handy tool that can remove the background from an image. This is super useful if you want to copy something on top of another photo. 
-	you can also delete some of the up-close areas by using the Magic Wand tool. Just select the Wand tool, hold “Shift”, click on the sand and click “Delete”.
-Spot Heal And Clone Stamp Tools -
-	used to remove people or unwanted parts from the image.
-	Essentially both tools can achieve very similar results but the Spot Healing Tool lets the Pixlr program do all the hard work while the Clone Stamp tool gives the user more control.
-	The Spot Healing Tool is not very good with sharp edges or multi-color areas so some parts can come out looking a bit smudgy. In that case, select a smaller brush size and zoom in to get the more difficult parts.
-	The Spot Heal Tool works great for simple images but for something a bit more complicated, you’ll want to use the Clone Stamp Tool.
-	The Clone Stamp Tool gives the user a lot more control on what and how to replace in the image. hold down “Ctrl” and click on the image to select a nearby spot that’s similar in color or pattern to what you want to replace.
-Pinch Tool -
-	You can make pinching adjustments to the photo to make something look slimmer like a body
-	The Pinch Tool slightly distorts the surrounding area so when using this tool just be careful not to over-do it.
-  
-*******************************************************************************************************************
-http://web.simmons.edu/~lewiscj/portfolio/files/Altomer_Lewis_Pixlr_Tutorial.pdf
-*******************************************************************************************************************
-The Adjustment menu gives you many options for altering and enhancing your image, some simple, and some more complex. For instance, Brightness & Contrast and Hue & Saturation are simple tools for brightening up a dull-looking image. Sepia will make your image look like an old monochrome photograph, and Desaturate will turn a color picture into a black and white image. There are also more dramatic effects, such as Posterize
-The Filter menu (seen here to the right) provides many other options for altering the appearance of an image, some of which can be quite extreme.
-PIXLR Tutorial 2017 - Designed for Beginners — by Teacher’s Tech --- https://www.youtube.com/watch?v=2xOCi_I5_Jc
-Complete playlist of additional Pixlr tutorials by Teacher's Tech --- https://www.youtube.com/playlist?list=PLmkaw6oRnRv843MQW1EHUcvCM3vht55_X
-Pixlr Editor 2017 Tutorial — by Technology for Teachers and Students --- https://www.youtube.com/watch?v=y28QW05xtI8
-Image Background Removal with Pixlr — by Jennifer Leban --- https://www.youtube.com/watch?v=8hco00o-CtM
-Pixlr Playlist — Tutorials created by Pixlr --- https://www.youtube.com/user/PixlrStream/playlists
-Support | FAQ's — from Pixlr’s Blog --- http://pixlr.com/blog/support/
-
-*******************************************************************************************************************
-http://pixlrtutorial.blogspot.com/p/tutorials-navigation.html?_sm_au_=isV2q7TJF6Jr3FTR
-*******************************************************************************************************************
+Tool
+ Crop
+ Move
+ Marquee
+ Lasso
+ Wand
+ ------------------------
+ Pencil
+ Brush
+ Eraser
+ Paint Bucket
+ Gradient
+ Clone Stamp
+ Color Replace
+ Drawing
+ ------------------------
+ Blur
+ Sharpen
+ Smudge
+ Sponge
+ Dodge
+ Burn
+ Red Eye Reduction
+ Spot Heal
+ Bloat
+ Pinch
+ ------------------------
+ Colorpicker
+ Type
+ Hand
+ Zoom
