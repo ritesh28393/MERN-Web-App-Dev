@@ -1,9 +1,26 @@
+Histogram
+ Illustrates how pixels in an image are distributed by graphing the number of pixels at each color intensity level. The histogram shows detail in the shadows (shown in the left part of the histogram), midtones (shown in the middle), and highlights (shown in the right part) A histogram can help you determine whether an image has enough detail to make a good correction.
+ <https://helpx.adobe.com/photoshop/using/viewing-histograms-pixel-values/_jcr_content/main-pars/image_0.img.png/ct_01.png>
+ A. Overexposed photo B. Properly exposed photo with full tonality C. Underexposed photo
 Adjustment
  Brightness & Contrast
+  Brightness refers to the absolute value of colors (tones) lightness/darkness. Increasing brightness of an image will light out all colors so the original light ones will become up to white. Reversely, decreasing brightness will darken all colors so the original shaded ones will become up to black.
+  Contrast is the distinction between lighter and darker areas of an image, and it rerefers to making more obvious the objects or details within an image. Increasing contrast on an image will increase the difference between light and dark areas so light areas will become lighter and dark areas will become darker. Reversely, decreasing the contrast will make lighter and darker areas stay approximately the same but the overall image becomes more “flat” and starts looking as if it were “washed out”
  Hue & Saturation
+  Hue — another word for color
+  Saturation (chroma) — the intensity or purity of a hue. Lesser saturation, more is the greyishness. More saturation, more the intensity of color
+  Lightness (value) — the relative degree of black or white mixed with a given hue
  Color Balance
+  Color balance is the global adjustment of the intensities of the colors (typically red, green, and blue primary colors)
+  Use it to adjust red offset, green offset and blue offset
  Color Vibrance
- Levels - dark, mid and light tone
+  Vibrance is more like Saturation
+  Vibrance is a smart-tool which cleverly increases the intensity of the more muted colors and leaves the already well-saturated colors alone. It’s sort of like fill light, but for colors. Vibrance also prevents skin tones from becoming overly saturated and unnatural
+ Levels
+  Used to adjust intensity levels of image shadows(dark tone), midtones, and highlights(light tone).
+  If you move the black point slider to the right at level 5, Photoshop maps all the pixels at level 5 and lower to level 0. Similarly, if you move the white point slider to the left at level 243, Photoshop maps all pixels at level 243 and higher to level 255. The mapping affects the darkest and lightest pixels in each channel. The corresponding pixels in the other channels are adjusted proportionately to avoid altering the color balance.
+  <https://helpx.adobe.com/au/photoshop/using/levels-adjustment/_jcr_content/main-pars/procesure_0/proc_par/step_3/step_par/image_0.img.png/ct_09.png>
+  The shadows expand to fill the tonal range from Black-Point-Slider to Midtone-Point-Slider, and the highlights are compressed. Moving the middle Input slider to the right makes the image darker.
  Curves
  Exposure
  ------------------------
