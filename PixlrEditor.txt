@@ -22,20 +22,37 @@ Adjustment
   <https://helpx.adobe.com/au/photoshop/using/levels-adjustment/_jcr_content/main-pars/procesure_0/proc_par/step_3/step_par/image_0.img.png/ct_09.png>
   The shadows expand to fill the tonal range from Black-Point-Slider to Midtone-Point-Slider, and the highlights are compressed. Moving the middle Input slider to the right makes the image darker.
  Curves
+  In the Curves adjustment, you adjust points throughout an image’s tonal range. 
+  Initially, the image’s tonality is represented as a straight diagonal line on a graph. When adjusting an RGB image, the upper-right area of the graph represents the highlights and the lower-left area represents the shadows. 
+  The horizontal axis of the graph represents the input levels (original image values) and the vertical axis represents the output levels (new adjusted values). 
+  Moving a point either down or to the right maps the Input value to a lower Output value, and the image darkens. To lighten the shadows, move a point near the bottom of the curve upward. Moving a point either up or to the left maps a lower Input value to a higher Output value, and the image lightens.
+  Allow to take sample in image to set black or gray or white point
+  Also allows to adust only red or blue  or green channel
  Exposure
+  Just like Vibrance, Exposure is smart when dealing with the lightness of photo
  ------------------------
  Auto Levels
+  Pixlr automatically adjusts the intensity levels
  ------------------------
  Invert
+  Invert the pixels giving reel feeling
  Sepia
+  Sepia tone is a photograph in warm shades of brown
  Solarize
+  Simply put dark areas appear light and light areas appear dark.
  Desaturate
+  Make image gray-ish
  Old Photo
+  give a old photo look
  Cross Process
+  This effect gives a high image contrast and blow-out highlights with strong yellow and green color casts.
  Threshold
+  Allow you to partition an image into a foreground(white tone) and background(black tone)
  Posterize
+  Entails conversion of a continuous gradation of tone to several regions of fewer tones, with abrupt changes from one tone to another
  Color Lookup
-
+  Create a subtle or dramatic change in your photo’s appearance by applying a Color Lookup adjustment layer
+  
 Filter
  Blur
  Box Blur
