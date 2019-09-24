@@ -117,3 +117,9 @@ Tool
  Type
  Hand
  Zoom
+ 
+ 
+ Examples
+ https://www.youtube.com/watch?v=gF8CtggKafc - Make the Perfect Head Swap in Photoshop
+ 1. Has to fulfill 3 condition - Lighting source direction, skin tone, angle of face and body
+ 2. 
